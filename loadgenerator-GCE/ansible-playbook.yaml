@@ -5,4 +5,4 @@
 
   tasks:
     - name: Start Docker Compose
-      command: sudo docker-compose -f /home/vannyratanakchheang/loadgenerator/docker-compose.yaml up
+      command: sudo docker-compose -f /home/vannyratanakchheang/loadgenerator/docker-compose.yaml up -d
