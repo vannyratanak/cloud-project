@@ -17,6 +17,7 @@ metadata:
   labels:
     app: grafana
   name: grafana
+  name: monitoring
 spec:
   selector:
     matchLabels:
