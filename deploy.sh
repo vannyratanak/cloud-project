@@ -1,3 +1,4 @@
 
 kubectl apply -f ./release/kubernetes-manifests.yaml
-sh ./release/monitoring.sh
+kubectl apply -f ./monitoring/prometheus/
+kubectl apply -f ./monitoring/grafana/grafana.yaml
