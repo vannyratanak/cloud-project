@@ -1,2 +1,2 @@
-kubectl apply -f ./monitoring/prometheus.yaml
-kubectl apply -f ./monitoring/grafana.yaml
+kubectl apply -f ./monitoring/prometheus/
+kubectl apply -f ./monitoring/grafana/grafana.yaml
