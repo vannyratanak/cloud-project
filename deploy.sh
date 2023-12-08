@@ -1,5 +1,6 @@
 kubectl apply -f ./monitoring/monitoring.yaml
 # kubectl apply -f ./release/kubernetes-manifests.yaml
+kubectl apply -f ./monitoring/nodeexporter.yaml
 kubectl apply -f ./monitoring/prometheus.yaml
 # kubectl apply -f ./monitoring/prometheus/clusterRole.yaml
 # kubectl apply -f ./monitoring/prometheus/config-map.yaml
